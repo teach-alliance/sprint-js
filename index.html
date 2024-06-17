@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <div class="toggle">
+                <button id="loginBtn" class="active" onclick="showLogin()">LOGIN</button>
+                <button id="contactBtn" onclick="showContact()">CONTATO</button>
+            </div>
+            <div id="loginForm">
+                <h1>Iniciar sessão</h1>
+                <form id="loginFormElem">
+                    <input type="email" id="email" placeholder="E-mail" required>
+                    <input type="password" id="password" placeholder="Senha" required>
+                    <button type="submit"><i class="fas fa-sign-in-alt"></i> INICIAR SESSÃO</button>
+                </form>
+                <a href="#" class="link">Esqueceu a senha?</a>
+                <a href="#" class="link">Criar uma conta</a>
+                <div class="alert" id="alert"></div>
+            </div>
+            <div id="contactForm" style="display: none;">
+                <h1>Contato</h1>
+                <form id="contactFormElem">
+                    <input type="text" id="name" placeholder="Nome" required>
+                    <input type="email" id="contactEmail" placeholder="E-mail" required>
+                    <textarea id="message" placeholder="Mensagem" required></textarea>
+                    <button type="submit">ENVIAR MENSAGEM</button>
+                </form>
+                <div class="alert" id="contactAlert"></div>
+            </div>
+            <button id="themeToggle" class="theme-toggle"><i class="fas fa-moon"></i></button>
+        </div>
+        <div class="slideshow-container">
+            <div class="slides">
+                <img src="./img/imagem1.webp" alt="formula e" class="slide">
+                <img src="./img/imagem2.webp" alt="formula e" class="slide">
+                <img src="./img/imagem3.webp" alt="formula e" class="slide">
+            </div>
+            <div class="slideshow-features">
+                <button onclick="prevSlide()"><i class="fas fa-chevron-left"></i></button>
+                <button onclick="nextSlide()"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>© 2024 Tech Alliance. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
