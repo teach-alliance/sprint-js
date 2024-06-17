@@ -71,5 +71,4 @@ As funcionalidades interativas, como alternar entre formulários, controlar o sl
 - Conexão com a internet para carregar fontes e ícones externos.
 
 ## Créditos
-- **Desenvolvedor**: Seu Nome
 - **Licença**: © 2024 Tech Alliance. Todos os direitos reservados.
