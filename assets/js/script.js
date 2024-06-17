@@ -8,7 +8,7 @@ function showSlides() {
     slideIndex = (slideIndex + 1) % slides.length;
 }
 
-setInterval(showSlides, 3000);
+setInterval(showSlides, 4000);
 
 document.querySelector('#loginFormElem').addEventListener('submit', function(event) {
     event.preventDefault();
