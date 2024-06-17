@@ -1,5 +1,13 @@
 # Sprint 1. Web Development 
 
+## Nomes Integrantes:
+
+Matheus Henriques do Amaral - 556957
+Bruno Carneiro Leão - 555563
+Guilherme Melo - 555310 
+Paulo Akira Okama-556840
+Victor Capp - 555753
+
 ## Descrição
 Este é o código-fonte de uma página web com tema Formula E, que inclui uma interface para login, um formulário de contato, e uma apresentação de slides de imagens relacionadas à Formula E. A página é estilizada com CSS externo e utiliza ícones da Font Awesome e fontes do Google Fonts.
 
