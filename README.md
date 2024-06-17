@@ -15,8 +15,8 @@ O documento HTML está estruturado da seguinte forma:
     - Links para arquivos de estilos CSS locais e externos.
 
 2. **Corpo**:
-    - **Container Principal (`<div class="container">`)**:
-        - **Caixa de Formulários (`<div class="form-box">`)**:
+    - **Container Principal**:
+        - **Caixa de Formulários**:
             - **Alternância de Formulários**: Dois botões para alternar entre os formulários de login e contato.
             - **Formulário de Login**:
                 - Campo para email e senha.
@@ -28,10 +28,10 @@ O documento HTML está estruturado da seguinte forma:
                 - Botão de submissão.
                 - Elemento de alerta para mensagens.
             - **Botão de Alternância de Tema**: Para alternar entre modos claro e escuro.
-        - **Container de Slideshow (`<div class="slideshow-container">`)**:
+        - **Container de Slideshow**:
             - **Slides**: Três imagens de Formula E.
             - **Controles do Slideshow**: Botões para navegar entre as imagens.
-    - **Rodapé (`<footer>`)**:
+    - **Rodapé**:
         - Mensagem de direitos autorais.
 
 3. **Scripts**:
@@ -57,7 +57,7 @@ As funcionalidades interativas, como alternar entre formulários, controlar o sl
     ```bash
     git clone <URL_DO_REPOSITORIO>
     ```
-
+    
 2. **Navegue até o Diretório do Projeto**:
     ```bash
     cd nome-do-projeto
