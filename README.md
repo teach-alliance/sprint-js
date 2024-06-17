@@ -8,13 +8,13 @@ Este é o código-fonte de uma página web com tema Formula E, que inclui uma in
 ### HTML
 O documento HTML está estruturado da seguinte forma:
 
-1. **Cabeçalho (`<head>`)**:
+1. **Cabeçalho**:
     - Declaração do tipo de documento e linguagem do conteúdo.
     - Metadados para charset e viewport.
     - Título da página.
     - Links para arquivos de estilos CSS locais e externos.
 
-2. **Corpo (`<body>`)**:
+2. **Corpo**:
     - **Container Principal (`<div class="container">`)**:
         - **Caixa de Formulários (`<div class="form-box">`)**:
             - **Alternância de Formulários**: Dois botões para alternar entre os formulários de login e contato.
