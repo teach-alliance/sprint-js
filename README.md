@@ -1,4 +1,4 @@
-# Sprint 1 - Web Development 
+# Sprint 1. Web Development 
 
 ## Descrição
 Este é o código-fonte de uma página web com tema Formula E, que inclui uma interface para login, um formulário de contato, e uma apresentação de slides de imagens relacionadas à Formula E. A página é estilizada com CSS externo e utiliza ícones da Font Awesome e fontes do Google Fonts.
